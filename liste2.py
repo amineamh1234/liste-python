@@ -5,14 +5,19 @@ liste2=[4,51,18,24,52,19,34]
 """set = ensemble{} généréer sur la base de la liste =, on va pas avoir les mémes elements sans doubleurs
 A.intsersection(B)
 avec aAet B sont des set """
+
 x=set(liste1)
+print(x)
 y=set(liste2)
+print(y)
 liste3=x.intersection(y)
+print(liste3)
 list(liste3)
 if liste3==[]:
     print(" pas d'intersction")
 else :
     print(list(liste3))
+
     
 
 
